@@ -7,7 +7,7 @@ echo "   UserKnownHostsFile=/dev/null" >> ~/.ssh/config;
 if [[ $TRAVIS_PULL_REQUEST == "false" && $TRAVIS_BRANCH == "master" ]]
   then 
     npm install heroku
-    git remote add git@heroku.com:mtcolt.git
+    git remote add git@heroku.com:mt-colt.git
     wget -qO- https://toolbelt.heroku.com/install-ubuntu.sh | sh
     heroku keys: clear
     # ssh-keygen -t rsa
