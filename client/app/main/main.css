@@ -30,6 +30,9 @@ h6 {
     font-weight: 300;
     color: black;
 }
+a.inlineLink{
+  text-decoration: underline;
+}
 
 #title2 {
     color: white;
